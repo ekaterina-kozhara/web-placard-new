@@ -43,47 +43,62 @@ footer {
   margin-top: 60px;
   width: 90%;
 }
+/* .box5 img {
+ width: 30%;
+} */
 
-.box1 img, .box2 img, .box3 img, .box4 img, .box5 img, .box8 img {
-  width: 400px;
-}
-
+/* feet */
 .box1 {
-  transform: rotate(330deg);
+  /* transform: rotate(10deg); */
   position: absolute;
-  top: 3%;
-  left: 2%;
+  bottom: 40%;
+  left: 10%;
 }
-
+.box1 img {
+ width: 36%;
+}
+/* jump */
 .box2 {
   z-index: 6;
   position: absolute;
-  top: 3%;
+  bottom: 35%;
   left: 40%;
 }
+.box2 img {
+ width: 50%;
+}
 
+/*  cat*/
 .box3 {
   position: absolute;
   top: 4%;
-  left: 70%;
-  z-index: 6;
+  left: 60%;
+  z-index: 4;
+}
+.box3 img{
+ width: 90%;
 }
 
+/* girl */
 .box4 {
-  transform: rotate(195deg);
+  /* transform: rotate(195deg); */
   position: absolute;
   z-index: 7;
-  top: 9%;
-  left: 25%;
+  top: 10%;
+  left: 30%;
 }
-
-.box5 {
+.box4 img {
+ width: 35%;
+}
+/* .box5 {
   transform: rotate(55deg);
   position: absolute;
   top: 25%;
   left: 40%;
-}
+} */
 
+
+/* sunrise */
 .box6 {
   transform: rotate(35deg);
   z-index: -20;
@@ -91,46 +106,44 @@ footer {
   top: 15%;
   left: 40%;
 }
-
 .box6 img {
-  width: 800px;
-  height: 600px;
+  width: 90%;
+  /* height: 600px; */
 }
 
+/* piano */
 .box7 {
-  transform: rotate(180deg);
+  /* transform: rotate(180deg); */
   z-index: -30;
   position: absolute;
-  top: 2%;
-  left: 1%;
+  top: 22%;
+  left: 8%;
 }
-
 .box7 img {
-  width: 800px;
-  height: 700px;
+  width: 54%;
+  /* height: 700px; */
 }
-
+/* water */
 .box8 {
   z-index: 5;
   position: absolute;
   top: 5%;
-  left: 50%;
+  left: 45%;
 }
-
+.box8 img {
+ width: 50%;
+}
 .box9 {
   z-index: 5;
   position: absolute;
 }
-
 .box9 img {
-  width: 100vw;
-  height: 100vh;
+  width: 95%;
   transform: rotate(10deg);
 }
 
 p {
   font-size: 21px;
-  font-weight: bold;
   line-height: 25px;
   letter-spacing: 3px;
   opacity: 0.5;
@@ -164,5 +177,5 @@ main .headertext {
 }
 
 .headertext img {
-
+ margin: 40px 0 0 0;
 }
