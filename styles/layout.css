@@ -29,15 +29,18 @@ main {
   height: 65vh;
   justify-content: center;
   position: relative;
+  /* margin-bottom: 30px; */
 }
 
 .motto {
   align-self: center;
   margin-top: 30px;
+  /* position: absolute; */
 }
 
 footer {
   display: flex;
+  /* position: absolute; */
   align-self: center;
   justify-content: space-between;
   margin-top: 60px;
@@ -73,22 +76,19 @@ h2 {
 }
 
 main .headertext {
+  /* position: absolute; */
+  display: flex;
   justify-content: center;
   align-self: center;
   margin-top: 30px;
 }
 
 .headertext img {
- margin: 40px 0 0 0;
- width: 100%;
+  align-items: center;
+  width: 100%;
 }
-/* .box5 img {
- width: 30%;
-} */
 
-/* feet */
 .box1 {
-  /* transform: rotate(10deg); */
   position: absolute;
   top: 5%;
   left: 10%;
@@ -180,14 +180,17 @@ main .headertext {
   width: 95%;
   transform: rotate(10deg);
 }
-________________________________________________________________________________
 
-@media all and (max-width: 1024px) and (min-width: 320px) {
+
+@media all and (max-width: 768px) and (min-width: 320px) {
   /* feet */
+  .content {
+    height: 118vh;
+  }
   .box1 {
     transform: rotate(10deg);
-    position: absolute;
-    top: -10%;
+    /* position: absolute; */
+    top: -2%;
     left: -5%;
   }
   .box1 img {
@@ -195,36 +198,36 @@ ________________________________________________________________________________
   }
   /* jump */
   .box2 {
-    z-index: 6;
+    z-index: 8;
     position: absolute;
-    top: 15%;
-    left: 40%;
+    top: 19%;
+    left: 24%;
   }
   .box2 img {
-   width: 50%;
+   width: 86%;
   }
 
   /*  cat*/
   .box3 {
     position: absolute;
-    top: 4%;
-    left: 60%;
+    top: -10%;
+    left: 37%;
     z-index: 4;
   }
   .box3 img{
-   width: 90%;
+   width: 150%;
   }
 
   /* girl */
   .box4 {
-    /* transform: rotate(195deg); */
+    transform: rotate(350deg);
     position: absolute;
-    z-index: 7;
-    top: 10%;
-    left: 30%;
+    z-index: 8;
+    top: 7%;
+    left: 13%;
   }
   .box4 img {
-   width: 35%;
+   width: 52%;
   }
   /* .box5 {
     transform: rotate(55deg);
@@ -237,44 +240,49 @@ ________________________________________________________________________________
   /* sunrise */
   .box6 {
     transform: rotate(35deg);
-    z-index: -20;
+    z-index: -40;
     position: absolute;
-    top: 15%;
-    left: 40%;
+    top: 4%;
+    left: 15%;
   }
   .box6 img {
-    width: 90%;
+    width: 136%;
     /* height: 600px; */
   }
 
   /* piano */
   .box7 {
-    /* transform: rotate(180deg); */
+    transform: rotate(350deg);
     z-index: -30;
     position: absolute;
-    top: 22%;
-    left: 8%;
+    top: 4%;
+    left: -27%;
   }
   .box7 img {
-    width: 54%;
+    width: 86%;
     /* height: 700px; */
   }
   /* water */
   .box8 {
     z-index: 5;
     position: absolute;
-    top: 5%;
-    left: 45%;
+    top: 4%;
+    left: 33%;
   }
   .box8 img {
-   width: 50%;
+   width: 61%;
   }
   .box9 {
-    z-index: 5;
+    z-index: 7;
     position: absolute;
+    top: 1%;
+    left: -61%;
   }
   .box9 img {
-    width: 95%;
+    width: 138%;
     transform: rotate(10deg);
+  }
+  .headertext img {
+    width: 90%;
   }
 }
