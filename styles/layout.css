@@ -180,3 +180,101 @@ main .headertext {
   width: 95%;
   transform: rotate(10deg);
 }
+________________________________________________________________________________
+
+@media all and (max-width: 1024px) {
+  /* feet */
+  .box1 {
+    transform: rotate(10deg);
+    position: absolute;
+    top: -10%;
+    left: -5%;
+  }
+  .box1 img {
+   width: 57%;
+  }
+  /* jump */
+  .box2 {
+    z-index: 6;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+  }
+  .box2 img {
+   width: 50%;
+  }
+
+  /*  cat*/
+  .box3 {
+    position: absolute;
+    top: 4%;
+    left: 60%;
+    z-index: 4;
+  }
+  .box3 img{
+   width: 90%;
+  }
+
+  /* girl */
+  .box4 {
+    /* transform: rotate(195deg); */
+    position: absolute;
+    z-index: 7;
+    top: 10%;
+    left: 30%;
+  }
+  .box4 img {
+   width: 35%;
+  }
+  /* .box5 {
+    transform: rotate(55deg);
+    position: absolute;
+    top: 25%;
+    left: 40%;
+  } */
+
+
+  /* sunrise */
+  .box6 {
+    transform: rotate(35deg);
+    z-index: -20;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+  }
+  .box6 img {
+    width: 90%;
+    /* height: 600px; */
+  }
+
+  /* piano */
+  .box7 {
+    /* transform: rotate(180deg); */
+    z-index: -30;
+    position: absolute;
+    top: 22%;
+    left: 8%;
+  }
+  .box7 img {
+    width: 54%;
+    /* height: 700px; */
+  }
+  /* water */
+  .box8 {
+    z-index: 5;
+    position: absolute;
+    top: 5%;
+    left: 45%;
+  }
+  .box8 img {
+   width: 50%;
+  }
+  .box9 {
+    z-index: 5;
+    position: absolute;
+  }
+  .box9 img {
+    width: 95%;
+    transform: rotate(10deg);
+  }
+}
