@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700&subset=cyrillic'); */
 
 
+*{
+  transition: all .4s ease;
+}
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -21,12 +24,11 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100vw;
 }
 
 .content {
   display: flex;
-  height: 65vh;
+  height: 65vw;
   justify-content: center;
   position: relative;
   /* margin-bottom: 30px; */
@@ -34,7 +36,7 @@ main {
 
 .motto {
   align-self: center;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   /* position: absolute; */
 }
 
@@ -85,8 +87,8 @@ main .headertext {
 
 .headertext img {
   align-items: center;
-  width: 100%;
-  margin-top: 55%;
+  width: 90%;
+  /* margin-top: 55%; */
 }
 
 .box1 {
@@ -156,7 +158,7 @@ main .headertext {
   /* transform: rotate(180deg); */
   z-index: -30;
   position: absolute;
-  top: 22%;
+  top: 20%;
   left: 8%;
 }
 .box7 img {
@@ -181,12 +183,12 @@ main .headertext {
   width: 95%;
   transform: rotate(10deg);
 }
-
+/* ------------------------------------------------------------------------- */
 
 @media all and (max-width: 768px) and (min-width: 320px) {
   /* feet */
   .content {
-    height: 60vh;
+    height: 70vw;
   }
   .box1 {
     transform: rotate(10deg);
@@ -221,7 +223,7 @@ main .headertext {
 
   /* girl */
   .box4 {
-    transform: rotate(350deg);
+    /* transform: rotate(350deg); */
     position: absolute;
     z-index: 8;
     top: 7%;
@@ -253,7 +255,7 @@ main .headertext {
 
   /* piano */
   .box7 {
-    transform: rotate(350deg);
+    /* transform: rotate(350deg); */
     z-index: -30;
     position: absolute;
     top: 4%;
@@ -285,5 +287,6 @@ main .headertext {
   }
   .headertext img {
     width: 90%;
+    align-items: center;
   }
 }
