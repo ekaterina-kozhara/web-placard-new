@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "FuturaBookC", sans-serif;
+
+  src: url("../fonts/FuturaBookC.woff");
+}
+
+@font-face {
+  font-family: "FuturaDemiC", sans-serif;
+
+  src: url("../fonts/FuturaDemiC.woff");
+}
+
+@font-face {
+  font-family: "FuturaLightC-Italic", sans-serif;
+
+  src: url("../fonts/rodchenkoctt.woff");
+}

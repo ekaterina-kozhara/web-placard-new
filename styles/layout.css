@@ -4,7 +4,7 @@
 
 
 *{
-  transition: all .4s ease;
+  transition: all .6s ease;
 }
 body {
   -webkit-font-smoothing: antialiased;
@@ -180,12 +180,12 @@ main .headertext {
   position: absolute;
 }
 .box9 img {
-  width: 95%;
-  transform: rotate(10deg);
+  width: 105%;
+  /* transform: rotate(10deg); */
 }
 /* ------------------------------------------------------------------------- */
 
-@media all and (max-width: 768px) and (min-width: 320px) {
+@media all and (max-width: 768px) and (min-width: 200px) {
   /* feet */
   .content {
     height: 70vw;
@@ -283,9 +283,10 @@ main .headertext {
   }
   .box9 img {
     width: 138%;
-    transform: rotate(10deg);
+    /* transform: rotate(10deg); */
   }
   .headertext img {
+    margin-top: 170px;
     width: 90%;
     align-items: center;
   }
