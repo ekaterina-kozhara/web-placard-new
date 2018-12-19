@@ -1,37 +1,15 @@
-/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic');
-/* @import url('https://fonts.googleapis.com/css?family=PT+Mono&subset=cyrillic,cyrillic-ext,latin-ext');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700&subset=cyrillic'); */ */
+@import url('https://fonts.googleapis.com/css?family=PT+Mono&subset=cyrillic');
 
 body {
-  font-family: "Futura Light C", sans-serif;
-  /* font-size: px; */
-}
-
-P {
-  font-size: 44px;
-}
-
-h2 {
-  font-size: 38px;
-}
-
-*{
-  box-sizing: border-box;
-
+  font-family: "FuturaLightC", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  transition: all .3s ease;
-}
-body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-family: 'Open Sans', sans-serif;
   margin: 0 auto;
   background-color: #E3DED2;
 }
 
-* {
-  font-family: 'Open Sans', sans-serif;
+*{
+    transition: all .3s ease;
 }
 
 main {
@@ -52,6 +30,8 @@ main {
 
 .motto {
   align-self: center;
+  width: 70vw;
+  margin-top: 30px;
   /* margin-top: 30px; */
   /* position: absolute; */
 }
@@ -60,16 +40,54 @@ footer {
   display: flex;
   /* position: absolute; */
   align-self: center;
-  justify-content: space-between;
-  margin-top: 60px;
+  flex-direction: column;
+  margin-top: 70px;
+  width: 60%;
+}
+.step1, .step3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.step2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+h2 {
+  font-size: 270px;
+  font-family: 'PT Mono', monospace;
+  color: #C01917;
+  opacity: 0.6;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 40px;
+  align-self: flex-end;
+  margin-bottom: 35px;
+  margin-left: 13px;
+}
+h3.rightside {
+  margin-right: 13px;
   width: 90%;
 }
 
+h4 {
+  letter-spacing: 2px;
+  align-self: flex-start;
+  margin-left: 108px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
 p {
-  font-size: 21px;
+  font-size: 35px;
   line-height: 25px;
-  letter-spacing: 3px;
-  opacity: 0.5;
+  letter-spacing: 2px;
+  opacity: 0.3;
   text-align: center;
 }
 
@@ -85,25 +103,26 @@ a:hover {
   color: black;
 }
 
-h2 {
+/* h2 {
   font-size: 16px;
   opacity: 0.6;
   flex-grow: 1;
   text-align: center;
   margin-bottom: 20px;
-}
+} */
 
 main .headertext {
   /* position: absolute; */
   display: flex;
   justify-content: center;
   align-self: center;
+  margin-top: -160px;
   /* margin-top: 30px; */
 }
 
 .headertext img {
   align-items: center;
-  width: 90%;
+  width: 100%;
   /* margin-top: 55%; */
 }
 
@@ -194,18 +213,49 @@ main .headertext {
 .box9 {
   z-index: 5;
   position: absolute;
+  right: 3%
 }
 .box9 img {
   width: 105%;
-  /* transform: rotate(10deg); */
 }
+
+.blockquote {
+  display: flex;
+  align-self: center;
+  flex-direction: row;
+}
+.PeterWare  {
+  width: 40%;
+}
+img.creator  {
+  width: 58%;
+  margin-top: -40px;
+  display: flex;
+  align-self: flex-start;
+}
+.creator {
+  display: flex;
+  flex-direction: column;
+}
+.lastwords {
+  align-self: center;
+  padding-right: 29px;
+  line-height: 25px;
+  font-size: 23px;
+}
+.lastwords p {
+  line-height: 35px;
+  font-size: 28px;
+}
+
 /* ------------------------------------------------------------------------- */
 
 @media all and (max-width: 768px) and (min-width: 200px) {
-  /* feet */
+
   .content {
-    height: 70vw;
+    height: 95vw;
   }
+    /* feet */
   .box1 {
     transform: rotate(10deg);
     /* position: absolute; */
