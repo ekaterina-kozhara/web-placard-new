@@ -5,9 +5,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0 auto;
-  background-color: #E3DED2;
+  background-color: #F2F7F2;
 }
-
+/* #443850, #8D8378, #ACC196, #49475B, #C1BDB3, #F2F7F2*/
 *{
   transition: all .3s ease;
 }
@@ -55,7 +55,7 @@ h2 {
   font-size: 270px;
   font-family: 'PT Mono', monospace;
   color: #C01917;
-  opacity: 0.6;
+  opacity: 0.7;
   font-weight: bold;
 }
 
@@ -79,7 +79,7 @@ p {
   font-size: 40px;
   line-height: 40px;
   letter-spacing: 2px;
-  opacity: 0.3;
+  opacity: 0.7;
   text-align: center;
 }
 
@@ -99,7 +99,6 @@ main .headertext {
   display: flex;
   justify-content: center;
   align-self: center;
-  margin-top: -200px;
 }
 
 .headertext img {
@@ -166,8 +165,8 @@ main .headertext {
 .box7 {
   z-index: -30;
   position: absolute;
-  top: 15%;
-  left: 11%;
+  top: 8%;
+  left: 7%;
 }
 
 .box7 img {
@@ -211,23 +210,26 @@ img.creator  {
 }
 
 .scientist p {
-  padding-left: 45px;
+  /* padding-left: 45px; */
   flex-direction: row;
   text-align: left;
   align-self: flex-end;
-  line-height: 39px;
-  font-size: 35px;
-  opacity: 0.5;
+  line-height: 31px;
+  font-size: 30px;
+  opacity: 0.9;
   letter-spacing: 0,5px;
+  margin-top: 30px;
 }
 
 .scientist {
-  width: 90%;
+  width: 70vw;
   display: flex;
   flex-direction: row;
+  align-self: center;
 }
 .lastwords {
-  width: 95%;
+  align-self: center;
+  width: 65vw;
 }
 
 h4 {
@@ -271,11 +273,8 @@ h5 {
 }
 /* ------------------------------------------------------------------------- */
 
-@media all and (max-width: 769px) and (min-width: 200px) {
+@media all and (max-width: 766px) and (min-width: 200px) {
 
-  .blockquote {
-    flex-flow: column-reverse nowrap;
-  }
   .scientist {
     flex-direction: column-reverse;
   }
@@ -366,7 +365,6 @@ h5 {
   }
 
   .headertext img {
-    margin-top: 170px;
     width: 90%;
     align-items: center;
   }
@@ -377,19 +375,19 @@ h5 {
   img.backgroundunder {
     left: -1000px;
   }
-  p, .lastwords p, h3 {
+  p, h3 {
     font-size: 25px;
   }
   .scientist p {
     line-height: 25px;
-    margin-top: 20px;
     text-align: center;
     font-size: 25px;
   }
-  .lastwords h4 {
+  .lastwords {
+    margin-right: 0px;
     text-align: left;
     text-align: center;
-    line-height: 16px;
+    line-height: 20px;
     margin-bottom: 30px;
     margin-top: 30px;
   }
@@ -401,7 +399,7 @@ h5 {
     font-size: 100px;
   }
   h4 {
-    font-size: 15px;
+    font-size: 18px;
   }
   .step1, .step2, .step3 {
     display: flex;
@@ -411,19 +409,22 @@ h5 {
     text-align: center;
   }
   footer {
-    margin: 30px 10px 40px 10px;
+    margin: 40px 10px 40px 10px;
   }
   h5 {
-    font-size: 13px;
+    font-size: 16px;
+  }
+  img.backgroundunder {
+    top: 33%;
   }
 }
 
 
 
-@media all and (max-width: 1290px) and (min-width: 766px) {
+@media all and (min-width: 766px) {
   .headertext img {
     width: 85%;
-    margin-top: 6%;
+    margin-top: -200px;
   }
   img.background {
     right: -960px;
@@ -442,4 +443,19 @@ h5 {
     margin-top: 0 auto;
   }
 
+}
+
+@media all and (max-width: 550px) and (min-width: 200px) {
+  footer {
+    flex-direction: column;
+  }
+  h5 {
+    margin-top: 10px;
+  }
+  img.background {
+    right: -1020px;
+  }
+  img.backgroundunder {
+    left: -1020px;
+  }
 }
