@@ -31,7 +31,7 @@ main {
 .motto {
   align-self: center;
   width: 70vw;
-  margin-top: 30px;
+  margin-top: 10px;
   /* margin-top: 30px; */
   /* position: absolute; */
 }
@@ -78,8 +78,8 @@ h3.rightside {
 }
 
 p {
-  font-size: 35px;
-  line-height: 25px;
+  font-size: 40px;
+  line-height: 40px;
   letter-spacing: 2px;
   opacity: 0.3;
   text-align: center;
@@ -187,11 +187,11 @@ main .headertext {
   /* transform: rotate(180deg); */
   z-index: -30;
   position: absolute;
-  top: 20%;
-  left: 8%;
+  top: 15%;
+  left: 11%;
 }
 .box7 img {
-  width: 54%;
+  width: 64%;
   /* height: 700px; */
 }
 /* water */
@@ -257,12 +257,13 @@ h4 {
   align-self: flex-end;
   text-align: right;
   font-size: 25px;
+  line-height: 27px;
 }
 img.background {
   position: absolute;
   opacity: 0.9;
   top: 30%;
-  right: -69%;
+  right: -925px;
   transform: rotate(-10deg);
   z-index: -50;
 }
@@ -270,16 +271,16 @@ img.backgroundunder {
   position: absolute;
   opacity: 0.9;
   top: 40%;
-  left: -70%;
+  left: -925px;
   transform: rotate(-10deg);
   z-index: -50;
 }
 /* ------------------------------------------------------------------------- */
 
-@media all and (max-width: 768px) and (min-width: 200px) {
+@media all and (max-width: 769px) and (min-width: 200px) {
 
   .content {
-    height: 95vw;
+    height: 100vw;
   }
     /* feet */
   .box1 {
@@ -350,8 +351,8 @@ img.backgroundunder {
     /* transform: rotate(350deg); */
     z-index: -30;
     position: absolute;
-    top: 4%;
-    left: -27%;
+    top: 11%;
+    left: -46%;
   }
   .box7 img {
     width: 86%;
@@ -383,4 +384,53 @@ img.backgroundunder {
     width: 90%;
     align-items: center;
   }
+  img.background {
+    right: -1000px;
+  }
+  img.backgroundunder {
+    left: -1000px;
+  }
+  p, .lastwords p, h3 {
+    font-size: 25px;
+  }
+  .motto p {
+    line-height: 25px;
+  }
+  h2 {
+    align-self: center;
+    font-size: 100px;
+  }
+  h4 {
+    font-size: 15px;
+  }
+  .step1, .step2, .step3 {
+    display: flex;
+    flex-direction: column;
+  }
+  h3 {
+    text-align: center;
+  }
+}
+@media all and (max-width: 1290px) and (min-width: 766px) {
+  .headertext img {
+    width: 85%;
+    margin-top: 6%;
+  }
+  img.background {
+    right: -960px;
+  }
+  img.backgroundunder {
+    left: -960px;
+  }
+  p, .lastwords p, h3 {
+    font-size: 35px;
+  }
+
+  h4 {
+    font-size: 21px;
+  }
+  .headertext {
+    margin-top: 0 auto;
+  }
+
 }
