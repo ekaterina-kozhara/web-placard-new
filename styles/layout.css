@@ -219,12 +219,12 @@ img.line2 {
   margin-bottom: -6%;
 }
 
-.blockquote {
+/* .blockquote {
   padding: 5% 5% 10% 5%;
   display: flex;
   align-self: center;
   flex-direction: row-reverse;
-}
+} */
 .PeterWare  {
   width: 40%;
 }
@@ -238,14 +238,14 @@ img.creator  {
 .scientist {
   width: 200%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
-.lastwords {
+/* .lastwords {
   align-self: center;
   padding-right: 29px;
   line-height: 25px;
   font-size: 23px;
-}
+} */
 .lastwords p {
   line-height: 39px;
   font-size: 40px;
@@ -279,7 +279,14 @@ img.backgroundunder {
 /* ------------------------------------------------------------------------- */
 
 @media all and (max-width: 769px) and (min-width: 200px) {
-
+  .blockquote {
+    flex-flow: column-reverse nowrap;
+    /* display: flex;
+    align-self: center; */
+  }
+  .scientist {
+    flex-direction: column;
+  }
   .content {
     height: 100vw;
   }
@@ -385,6 +392,7 @@ img.backgroundunder {
     width: 90%;
     align-items: center;
   }
+
   img.background {
     right: -1000px;
   }
