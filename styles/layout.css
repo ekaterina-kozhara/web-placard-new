@@ -9,7 +9,7 @@ body {
 }
 
 *{
-    transition: all .3s ease;
+  transition: all .3s ease;
 }
 
 main {
@@ -25,25 +25,22 @@ main {
   height: 65vw;
   justify-content: center;
   position: relative;
-  /* margin-bottom: 30px; */
 }
 
 .motto {
   align-self: center;
   width: 70vw;
   margin-top: 10px;
-  /* margin-top: 30px; */
-  /* position: absolute; */
 }
 
-footer {
+article {
   display: flex;
-  /* position: absolute; */
   align-self: center;
   flex-direction: column;
   margin-top: 70px;
   width: 60%;
 }
+
 .step1, .step3 {
   display: flex;
   flex-direction: row;
@@ -62,12 +59,13 @@ h2 {
   font-weight: bold;
 }
 
-h3{
+h3 {
   font-size: 40px;
   align-self: flex-end;
   margin-bottom: 35px;
   margin-left: 13px;
 }
+
 h3.rightside {
   margin-right: 13px;
   width: 90%;
@@ -97,27 +95,16 @@ a:hover {
   color: black;
 }
 
-/* h2 {
-  font-size: 16px;
-  opacity: 0.6;
-  flex-grow: 1;
-  text-align: center;
-  margin-bottom: 20px;
-} */
-
 main .headertext {
-  /* position: absolute; */
   display: flex;
   justify-content: center;
   align-self: center;
   margin-top: -200px;
-  /* margin-top: 30px; */
 }
 
 .headertext img {
   align-items: center;
   width: 100%;
-  /* margin-top: 55%; */
 }
 
 .box1 {
@@ -125,6 +112,7 @@ main .headertext {
   top: 5%;
   left: 10%;
 }
+
 .box1 img {
  width: 36%;
 }
@@ -146,13 +134,13 @@ main .headertext {
   left: 60%;
   z-index: 4;
 }
+
 .box3 img{
  width: 90%;
 }
 
 /* girl */
 .box4 {
-  /* transform: rotate(195deg); */
   position: absolute;
   z-index: 7;
   top: 10%;
@@ -161,13 +149,6 @@ main .headertext {
 .box4 img {
  width: 35%;
 }
-/* .box5 {
-  transform: rotate(55deg);
-  position: absolute;
-  top: 25%;
-  left: 40%;
-} */
-
 
 /* sunrise */
 .box6 {
@@ -179,21 +160,20 @@ main .headertext {
 }
 .box6 img {
   width: 90%;
-  /* height: 600px; */
 }
 
 /* piano */
 .box7 {
-  /* transform: rotate(180deg); */
   z-index: -30;
   position: absolute;
   top: 15%;
   left: 11%;
 }
+
 .box7 img {
   width: 64%;
-  /* height: 700px; */
 }
+
 /* water */
 .box8 {
   z-index: 5;
@@ -219,46 +199,46 @@ img.line2 {
   margin-bottom: -6%;
 }
 
-/* .blockquote {
-  padding: 5% 5% 10% 5%;
-  display: flex;
-  align-self: center;
-  flex-direction: row-reverse;
-} */
 .PeterWare  {
   width: 40%;
 }
 img.creator  {
   transform: rotate(3deg);
-  width: 100%;
-  margin-top: -42%;
+  width: 50%;
+  margin-left: 8%;
   display: flex;
-  align-self: flex-start;
+  align-self: center;
 }
+
+.scientist p {
+  padding-left: 45px;
+  flex-direction: row;
+  text-align: left;
+  align-self: flex-end;
+  line-height: 39px;
+  font-size: 35px;
+  opacity: 0.5;
+  letter-spacing: 0,5px;
+}
+
 .scientist {
-  width: 200%;
+  width: 90%;
   display: flex;
   flex-direction: row;
 }
-/* .lastwords {
-  align-self: center;
-  padding-right: 29px;
-  line-height: 25px;
-  font-size: 23px;
-} */
-.lastwords p {
-  line-height: 39px;
-  font-size: 40px;
-  opacity: 0.5;
-  text-align: left;
+.lastwords {
+  width: 95%;
 }
+
 h4 {
   margin-top: 10px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   align-self: flex-end;
   text-align: right;
-  font-size: 25px;
-  line-height: 27px;
+  font-size: 22px;
+  line-height: 24px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 img.background {
   position: absolute;
@@ -276,16 +256,28 @@ img.backgroundunder {
   transform: rotate(-10deg);
   z-index: -50;
 }
+footer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 150px 40px 150px;
+  flex-direction: row;
+}
+
+h5 {
+  letter-spacing: 2px;
+  color: #C01917;
+  font-weight: bold;
+}
 /* ------------------------------------------------------------------------- */
 
 @media all and (max-width: 769px) and (min-width: 200px) {
+
   .blockquote {
     flex-flow: column-reverse nowrap;
-    /* display: flex;
-    align-self: center; */
   }
   .scientist {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .content {
     height: 100vw;
@@ -293,7 +285,6 @@ img.backgroundunder {
     /* feet */
   .box1 {
     transform: rotate(10deg);
-    /* position: absolute; */
     top: -2%;
     left: -5%;
   }
@@ -324,7 +315,6 @@ img.backgroundunder {
 
   /* girl */
   .box4 {
-    /* transform: rotate(350deg); */
     position: absolute;
     z-index: 8;
     top: 7%;
@@ -333,13 +323,6 @@ img.backgroundunder {
   .box4 img {
    width: 52%;
   }
-  /* .box5 {
-    transform: rotate(55deg);
-    position: absolute;
-    top: 25%;
-    left: 40%;
-  } */
-
 
   /* sunrise */
   .box6 {
@@ -351,12 +334,10 @@ img.backgroundunder {
   }
   .box6 img {
     width: 136%;
-    /* height: 600px; */
   }
 
   /* piano */
   .box7 {
-    /* transform: rotate(350deg); */
     z-index: -30;
     position: absolute;
     top: 11%;
@@ -364,8 +345,8 @@ img.backgroundunder {
   }
   .box7 img {
     width: 86%;
-    /* height: 700px; */
   }
+
   /* water */
   .box8 {
     z-index: 5;
@@ -383,10 +364,7 @@ img.backgroundunder {
     left: -42%;
     width: 200%;
   }
-  /* .box9 img {
-    width: 138%;
-    transform: rotate(10deg);
-  } */
+
   .headertext img {
     margin-top: 170px;
     width: 90%;
@@ -402,12 +380,18 @@ img.backgroundunder {
   p, .lastwords p, h3 {
     font-size: 25px;
   }
-  .lastwords p {
-    line-height: 30px;
-  }
-  .lastwords p {
-    text-align: left;
+  .scientist p {
     line-height: 25px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+  }
+  .lastwords h4 {
+    text-align: left;
+    text-align: center;
+    line-height: 16px;
+    margin-bottom: 30px;
+    margin-top: 30px;
   }
   .motto p {
     line-height: 25px;
@@ -426,7 +410,16 @@ img.backgroundunder {
   h3 {
     text-align: center;
   }
+  footer {
+    margin: 30px 10px 40px 10px;
+  }
+  h5 {
+    font-size: 13px;
+  }
 }
+
+
+
 @media all and (max-width: 1290px) and (min-width: 766px) {
   .headertext img {
     width: 85%;
