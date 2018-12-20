@@ -250,6 +250,7 @@ img.creator  {
   line-height: 39px;
   font-size: 40px;
   opacity: 0.5;
+  text-align: left;
 }
 h4 {
   margin-top: 10px;
@@ -392,6 +393,13 @@ img.backgroundunder {
   }
   p, .lastwords p, h3 {
     font-size: 25px;
+  }
+  .lastwords p {
+    line-height: 30px;
+  }
+  .lastwords p {
+    text-align: left;
+    line-height: 25px;
   }
   .motto p {
     line-height: 25px;
