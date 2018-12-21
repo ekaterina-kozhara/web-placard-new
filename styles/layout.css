@@ -122,10 +122,10 @@ main .headertext {
   top: 15%;
   left: 40%;
 }
+
 .box2 img {
  width: 50%;
 }
-
 
 .box3 {
   position: absolute;
@@ -138,17 +138,16 @@ main .headertext {
  width: 90%;
 }
 
-
 .box4 {
   position: absolute;
   z-index: 7;
   top: 10%;
   left: 30%;
 }
+
 .box4 img {
  width: 35%;
 }
-
 
 .box6 {
   transform: rotate(35deg);
@@ -492,16 +491,17 @@ h5 {
     top: 11%;
     left: 7%;
   }
+
   .box7 img {
     width: 57vw;;
   }
+
   .box4 {
     top: 7%;
     left: 28%;
   }
+
   .box4 img {
     width: 39%;
   }
-
-
 }
