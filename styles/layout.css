@@ -7,7 +7,7 @@ body {
   margin: 0 auto;
   background-color: #F2F7F2;
 }
-/* #443850, #8D8378, #ACC196, #49475B, #C1BDB3, #F2F7F2*/
+
 *{
   transition: all .3s ease;
 }
@@ -115,7 +115,7 @@ main .headertext {
 .box1 img {
  width: 36%;
 }
-/* jump */
+
 .box2 {
   z-index: 6;
   position: absolute;
@@ -126,7 +126,7 @@ main .headertext {
  width: 50%;
 }
 
-/*  cat*/
+
 .box3 {
   position: absolute;
   top: 4%;
@@ -138,7 +138,7 @@ main .headertext {
  width: 90%;
 }
 
-/* girl */
+
 .box4 {
   position: absolute;
   z-index: 7;
@@ -149,7 +149,7 @@ main .headertext {
  width: 35%;
 }
 
-/* sunrise */
+
 .box6 {
   transform: rotate(35deg);
   z-index: -20;
@@ -157,11 +157,11 @@ main .headertext {
   top: 15%;
   left: 40%;
 }
+
 .box6 img {
   width: 90%;
 }
 
-/* piano */
 .box7 {
   z-index: -30;
   position: absolute;
@@ -173,16 +173,17 @@ main .headertext {
   width: 64%;
 }
 
-/* water */
 .box8 {
   z-index: 5;
   position: absolute;
   top: 5%;
   left: 45%;
 }
+
 .box8 img {
  width: 50%;
 }
+
 .box9 {
   z-index: 5;
   position: absolute;
@@ -201,6 +202,7 @@ img.line2 {
 .PeterWare  {
   width: 40%;
 }
+
 img.creator  {
   transform: rotate(3deg);
   width: 50%;
@@ -210,7 +212,6 @@ img.creator  {
 }
 
 .scientist p {
-  /* padding-left: 45px; */
   flex-direction: row;
   text-align: left;
   align-self: flex-end;
@@ -227,6 +228,7 @@ img.creator  {
   flex-direction: row;
   align-self: center;
 }
+
 .lastwords {
   align-self: center;
   width: 65vw;
@@ -242,6 +244,7 @@ h4 {
   margin-bottom: 30px;
   margin-top: 30px;
 }
+
 img.background {
   position: absolute;
   opacity: 0.9;
@@ -250,6 +253,7 @@ img.background {
   transform: rotate(-10deg);
   z-index: -50;
 }
+
 img.backgroundunder {
   position: absolute;
   opacity: 0.9;
@@ -258,6 +262,7 @@ img.backgroundunder {
   transform: rotate(-10deg);
   z-index: -50;
 }
+
 footer {
   align-items: center;
   display: flex;
@@ -281,49 +286,50 @@ h5 {
   .content {
     height: 100vw;
   }
-    /* feet */
+
   .box1 {
     transform: rotate(10deg);
     top: -2%;
     left: -5%;
   }
+
   .box1 img {
    width: 57%;
   }
-  /* jump */
+
   .box2 {
     z-index: 8;
     position: absolute;
     top: 19%;
     left: 24%;
   }
+
   .box2 img {
    width: 86%;
   }
 
-  /*  cat*/
   .box3 {
     position: absolute;
     top: -10%;
     left: 37%;
     z-index: 4;
   }
+
   .box3 img{
    width: 150%;
   }
 
-  /* girl */
   .box4 {
     position: absolute;
     z-index: 8;
     top: 7%;
     left: 13%;
   }
+
   .box4 img {
    width: 52%;
   }
 
-  /* sunrise */
   .box6 {
     transform: rotate(35deg);
     z-index: -40;
@@ -331,31 +337,33 @@ h5 {
     top: 4%;
     left: 15%;
   }
+
   .box6 img {
     width: 136%;
   }
 
-  /* piano */
   .box7 {
     z-index: -30;
     position: absolute;
     top: 11%;
     left: -46%;
   }
+
   .box7 img {
     width: 86%;
   }
 
-  /* water */
   .box8 {
     z-index: 5;
     position: absolute;
     top: 4%;
     left: 33%;
   }
+
   .box8 img {
    width: 61%;
   }
+
   .box9 {
     z-index: 7;
     position: absolute;
@@ -372,17 +380,21 @@ h5 {
   img.background {
     right: -1000px;
   }
+
   img.backgroundunder {
     left: -1000px;
   }
+
   p, h3 {
     font-size: 25px;
   }
+
   .scientist p {
     line-height: 25px;
     text-align: center;
     font-size: 25px;
   }
+
   .lastwords {
     margin-right: 0px;
     text-align: left;
@@ -391,29 +403,37 @@ h5 {
     margin-bottom: 30px;
     margin-top: 30px;
   }
+
   .motto p {
     line-height: 25px;
   }
+
   h2 {
     align-self: center;
     font-size: 100px;
   }
+
   h4 {
     font-size: 18px;
   }
+
   .step1, .step2, .step3 {
     display: flex;
     flex-direction: column;
   }
+
   h3 {
     text-align: center;
   }
+
   footer {
     margin: 40px 10px 40px 10px;
   }
+
   h5 {
     font-size: 16px;
   }
+
   img.backgroundunder {
     top: 33%;
   }
@@ -426,12 +446,15 @@ h5 {
     width: 85%;
     margin-top: -200px;
   }
+
   img.background {
     right: -960px;
   }
+
   img.backgroundunder {
     left: -960px;
   }
+
   p, .lastwords p, h3 {
     font-size: 35px;
   }
@@ -439,6 +462,7 @@ h5 {
   h4 {
     font-size: 21px;
   }
+
   .headertext {
     margin-top: 0 auto;
   }
@@ -449,12 +473,15 @@ h5 {
   footer {
     flex-direction: column;
   }
+
   h5 {
     margin-top: 10px;
   }
+
   img.background {
     right: -1020px;
   }
+  
   img.backgroundunder {
     left: -1020px;
   }
