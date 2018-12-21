@@ -315,7 +315,7 @@ h5 {
     z-index: 4;
   }
 
-  .box3 img{
+  .box3 img {
    width: 150%;
   }
 
@@ -485,4 +485,23 @@ h5 {
   img.backgroundunder {
     left: -1020px;
   }
+}
+
+@media all and (min-width: 1560px) {
+  .box7 {
+    top: 11%;
+    left: 7%;
+  }
+  .box7 img {
+    width: 57vw;;
+  }
+  .box4 {
+    top: 7%;
+    left: 28%;
+  }
+  .box4 img {
+    width: 39%;
+  }
+
+
 }
